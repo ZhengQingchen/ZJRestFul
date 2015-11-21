@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (3.1.2)
+  - BRYXBanner (0.5.0)
+  - FLAnimatedImage (1.0.8)
+  - Locksmith (2.0.2)
+  - PINCache (2.1)
+  - PINRemoteImage (1.2.2):
+    - PINRemoteImage/FLAnimatedImage (= 1.2.2)
+  - PINRemoteImage/Core (1.2.2):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (1.2.2):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - ReachabilitySwift (2.3)
+  - SwiftyJSON (2.3.1)
+  - XLForm (3.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - BRYXBanner
+  - Locksmith
+  - PINRemoteImage
+  - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
+  - SwiftyJSON
+  - XLForm (~> 3.0)
+
+EXTERNAL SOURCES:
+  ReachabilitySwift:
+    :git: https://github.com/ashleymills/Reachability.swift
+
+CHECKOUT OPTIONS:
+  ReachabilitySwift:
+    :commit: 490d6c39e11d794485319a97408564f710767a27
+    :git: https://github.com/ashleymills/Reachability.swift
+
+SPEC CHECKSUMS:
+  Alamofire: 7c16ca65f3c7e681fd925fd7f2dec7747ff96855
+  BRYXBanner: a1b87cd80ae9c366af5755b5ea2978802aaff87a
+  FLAnimatedImage: f9422f796135aff80d8c00b2afc48015bb746e24
+  Locksmith: 7f2b68448449a7712348f9a4ed60604c1cc8dfa6
+  PINCache: 0581b0a7578fc0bbc6c7a8b70b0615388bea064c
+  PINRemoteImage: 9f6f484bbceee15e2df5aee0beeac2e261e4ac81
+  ReachabilitySwift: 2ac9df18a443901f06caae38a9f5431219a4c36a
+  SwiftyJSON: 592b53bee5ef3dd9b3bebc6b9cb7ee35426ae8c3
+  XLForm: 7817ce29f3f259186e837bb7309ac7e5b7e9b883
+
+COCOAPODS: 0.39.0

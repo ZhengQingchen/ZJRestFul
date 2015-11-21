@@ -1,0 +1,6 @@
+framework module Pods_ZJRestFul {
+  umbrella header "Pods-ZJRestFul-umbrella.h"
+
+  export *
+  module * { export * }
+}
