@@ -11,5 +11,6 @@ target 'ZJRestFul' do
   pod 'XLForm', '~> 3.0'
   pod 'BRYXBanner'
   pod 'ReachabilitySwift', git: 'https://github.com/ashleymills/Reachability.swift'
+  pod 'netfox'
 end
 

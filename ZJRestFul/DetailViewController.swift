@@ -12,7 +12,6 @@ import BRYXBanner
 
 class DetailViewController: UIViewController {
 
-
   @IBOutlet weak var tableView: UITableView!
   var isStarred: Bool?
   var notConnectedBanner: Banner?

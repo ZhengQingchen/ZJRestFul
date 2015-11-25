@@ -93,6 +93,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-ZJRestFul/ReachabilitySwift.framework"
   install_framework "Pods-ZJRestFul/SwiftyJSON.framework"
   install_framework "Pods-ZJRestFul/XLForm.framework"
+  install_framework "Pods-ZJRestFul/netfox.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ZJRestFul/Alamofire.framework"
@@ -104,4 +105,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ZJRestFul/ReachabilitySwift.framework"
   install_framework "Pods-ZJRestFul/SwiftyJSON.framework"
   install_framework "Pods-ZJRestFul/XLForm.framework"
+  install_framework "Pods-ZJRestFul/netfox.framework"
 fi

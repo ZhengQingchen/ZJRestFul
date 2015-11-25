@@ -3,6 +3,7 @@ PODS:
   - BRYXBanner (0.5.0)
   - FLAnimatedImage (1.0.8)
   - Locksmith (2.0.2)
+  - netfox (0.1.6)
   - PINCache (2.1)
   - PINRemoteImage (1.2.2):
     - PINRemoteImage/FLAnimatedImage (= 1.2.2)
@@ -19,6 +20,7 @@ DEPENDENCIES:
   - Alamofire
   - BRYXBanner
   - Locksmith
+  - netfox
   - PINRemoteImage
   - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
   - SwiftyJSON
@@ -38,6 +40,7 @@ SPEC CHECKSUMS:
   BRYXBanner: a1b87cd80ae9c366af5755b5ea2978802aaff87a
   FLAnimatedImage: f9422f796135aff80d8c00b2afc48015bb746e24
   Locksmith: 7f2b68448449a7712348f9a4ed60604c1cc8dfa6
+  netfox: 75248a1367b2eaafdf189420ddc60f7b3df725ec
   PINCache: 0581b0a7578fc0bbc6c7a8b70b0615388bea064c
   PINRemoteImage: 9f6f484bbceee15e2df5aee0beeac2e261e4ac81
   ReachabilitySwift: 2ac9df18a443901f06caae38a9f5431219a4c36a

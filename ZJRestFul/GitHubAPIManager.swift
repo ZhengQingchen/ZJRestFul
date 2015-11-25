@@ -11,6 +11,7 @@ import Alamofire
 import SwiftyJSON
 import Locksmith
 import ReachabilitySwift
+import netfox
 
 class GitHubAPIManager {
   
@@ -49,6 +50,7 @@ class GitHubAPIManager {
   init(){
     let configuration = NSURLSessionConfiguration.defaultSessionConfiguration()
     configuration.HTTPAdditionalHeaders = Manager.defaultHTTPHeaders
+    configuration.protocolClasses?.insert(NFXProtocol.self, atIndex: 0)
     alamofireManager = Manager(configuration: configuration)
     addSessionHeader("Accept", value: "application/vnd.github.v3+json")
     if hasOauthToken() {

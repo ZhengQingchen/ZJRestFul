@@ -85,8 +85,6 @@ extension Alamofire.Request {
     
     return response(responseSerializer: responseSerializer, completionHandler: completionHandler)
   }
-  
-  
 }
 
 
